@@ -1,0 +1,180 @@
+body {
+  display: flex;
+  justify-content: center; /* Ini akan memusatkan elemen secara horizontal */
+  align-items: center; /* Ini akan memusatkan elemen secara vertikal */
+  height: 100vh; /* Ubah ini menjadi 100vh */
+  min-height: 100vh; /* Tambahkan ini */
+  background-color: rgb(0, 0, 0);
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+}
+
+.container1 {
+  position: absolute; /* Ubah ini menjadi absolute */
+  top: 39%; /* Tambahkan ini */
+  left: 50%; /* Tambahkan ini */
+  transform: translate(-50%, -50%); /* Tambahkan ini */
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 35px;
+  width: 700px;
+  max-width: 1612px;
+  height: 500px;
+  max-height: 720px;
+  margin: 0 auto;
+  z-index: 2;
+}
+
+.lapangan {
+  position: absolute;
+  background: url('../../galeri/eafc24fieldpro.jpeg') no-repeat center center;
+  background-size: 100% 100%;
+  max-width: 1612px;
+  max-height: 720px;
+  width: 100%;
+  height: 100%;
+  margin: 0 auto;
+  z-index: -1;
+}
+
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.player img {
+  width: 10vw;
+  height: 10vw;
+  position: relative;
+  z-index: 1; /* Tambahkan ini agar gambar tetap di atas */
+  animation: glow 2s ease-in-out infinite; /* Tambahkan ini untuk animasi */
+}
+
+/* Tambahkan ini untuk efek animasi cahaya */
+@keyframes glow {
+  0% {
+    filter: drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #49ff18);
+  }
+  50% {
+    filter: drop-shadow(0 0 2px #fff) drop-shadow(0 0 2px #fff) drop-shadow(0 0 2px #fff) drop-shadow(0 0 2px #49ff18);
+  }
+  75% {
+    filter: drop-shadow(0 0 3px #fff) drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1.9px #fff) drop-shadow(0 0 1.5px #49ff18);
+  }
+  100% {
+    filter: drop-shadow(0 0 1.5px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #fff) drop-shadow(0 0 1px #49ff18);
+  }
+}
+
+.player p {
+  position: sticky;
+  margin-top: 0px;
+  font-size: 11px;
+  color: lime; /* Warna teks hijau nyala terang */
+  text-shadow: 3px 3px 6px rgb(66, 255, 2); /* Bayangan teks berwarna hitam pekat ke abu-abuan sedikit */
+  padding: 10px; /* Jarak antara teks dan batas lingkaran */
+  background-color: rgb(0, 0, 0); /* Warna latar belakang lingkaran */
+  border-radius: 50%; /* Membuat bentuk lingkaran */
+  display: inline-block; /* Membuat elemen p menerima properti width dan height */
+  width: 25px; /* Lebar lingkaran */
+  height: 2px; /* Tinggi lingkaran */
+  line-height: 0px; /* Posisi teks di tengah lingkaran */
+  text-align: center; /* Posisi teks di tengah lingkaran */
+  z-index: -2;
+}
+
+/* profile pojok kiri atas */
+#team-info {
+  position: absolute;
+  top: 55px;
+  left: 100px;
+  display: flex;
+  align-items: center;
+}
+#team-logo {
+  width: 80px;
+  height: 80px;
+}
+#team-text {
+  margin-left: 20px;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: left;
+}
+#team-name, #formation {
+  margin: 0;
+}
+
+/* logo OVR pojok kanan atas */
+#team-info2 {
+  position: absolute;
+  top: 40px;
+  right: 60px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255); /* Ubah transparansi teks dan logo menjadi tidak transparan */
+}
+#team-text2 {
+  margin-left: 15px;
+  background: url('../../galeri/ovr100pro.png') no-repeat center;
+  background-size: contain; /* Ubah ini menjadi 'contain' agar gambar bisa muat di dalam elemen */
+  background-position: center; /* Posisikan gambar di tengah elemen */
+  opacity: 1; /* Tambahkan ini untuk membuat logo tidak transparan */
+  width: 100px; /* Tambahkan ini untuk mengatur lebar elemen */
+  height: 100px; /* Tambahkan ini untuk mengatur tinggi elemen */
+  padding: 1px;
+}
+#team-value {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+}
+#coin-icon {
+  width: 30px;
+  height: 30px;
+  margin-left: 5px;
+}
+#team-rating {
+  margin: 0;
+  font-size: 28px;
+  font-weight: bold;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 10px #fff, 0 0 10px #49ff18, 0 0 2px #49ff18, 0 0 10px #49ff18;
+}
+#team-name2 {
+  margin: 0;
+  font-size: 14px;
+  font-weight: bold;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 5px #49ff18, 0 0 3px #49ff18, 0 0 10px #49ff18;
+}
+.ovrku {
+  margin-top: 22px;
+}
+
+/* WAtermark EA FC 24 */
+#watermark {
+  position: fixed;
+  bottom: 22px;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5); /* Warna teks dan logo putih transparan */
+}
+#watermark-logo {
+  width: 40px;
+  height: 40px;
+  opacity: 0.4; /* Transparansi logo */
+}
+#watermark-text {
+  margin-left: 10px;
+  font-size: 24px; /* Ukuran font teks */
+  font-weight: bold; /* Teks tebal */
+}

@@ -1,0 +1,197 @@
+[
+  {
+    "league": "Hero",
+    "clubs": [
+      "Icon"
+    ]
+  },
+  {
+    "league": "Premier League",
+    "clubs": [
+      "Arsenal",
+      "Aston Villa",
+      "Brentford",
+      "Brighton & Hove Albion",
+      "Burnley",
+      "Chelsea",
+      "Crystal Palace",
+      "Everton",
+      "Leeds United",
+      "Leicester City",
+      "Liverpool",
+      "Manchester City",
+      "Manchester United",
+      "Newcastle United",
+      "Norwich City",
+      "Southampton",
+      "Tottenham Hotspur",
+      "Watford",
+      "West Ham United",
+      "Wolverhampton Wanderers"
+    ]
+  },
+  {
+    "league": "La Liga",
+    "clubs": [
+      "Alavés",
+      "Athletic Bilbao",
+      "Atlético Madrid",
+      "Barcelona",
+      "Cádiz",
+      "Celta Vigo",
+      "Deportivo Alavés",
+      "Eibar",
+      "Elche",
+      "Espanyol",
+      "Getafe",
+      "Granada",
+      "Levante",
+      "Mallorca",
+      "Osasuna",
+      "Rayo Vallecano",
+      "Real Betis",
+      "Real Madrid",
+      "Real Sociedad",
+      "Sevilla",
+      "Valencia",
+      "Villarreal"
+    ]
+  },
+
+  {
+    "league": "ROSHN Saudi League",
+    "clubs": [
+      "Al Ahly FC",
+      "Al Hilal Saudi Club",
+      "Al Ittihad",
+      "Al Nassr",
+      "Al Shabab",
+      "Al Ain",
+      "Al Jazira",
+      "Al Wahda",
+      "Al Wasl",
+      "Al Sadd",
+      "Al Duhail",
+      "Al Rayyan",
+      "Al Gharafa",
+      "Al Arabi",
+      "Al Khor",
+      "Al Ahli SC",
+      "Al Shamal",
+      "Al Wakrah",
+      "Al Sailiya",
+      "Al Markhiya"
+    ]
+  },
+  {
+  "league": "Major League Soccer",
+  "clubs": [
+    "Atlanta United FC",
+    "Austin FC",
+    "CF Montreal",
+    "Charlotte FC",
+    "Chicago Fire",
+    "Colorado Rapids",
+    "Columbus Crew SC",
+    "D.C. United",
+    "FC Cincinnati",
+    "FC Dallas",
+    "Houston Dynamo",
+    "Inter Miami CF",
+    "LA Galaxy",
+    "Los Angeles FC",
+    "Minnesota United FC",
+    "Nashville SC",
+    "New England Revolution",
+    "New York City FC",
+    "New York Red Bulls",
+    "Orlando City SC",
+    "Philadelphia Union",
+    "Portland Timbers",
+    "Real Salt Lake",
+    "San Jose Earthquakes",
+    "Seattle Sounders FC",
+    "Sporting Kansas City",
+    "Toronto FC",
+    "Vancouver Whitecaps FC"
+  ]
+},
+
+  {
+    "league": "Bundesliga",
+    "clubs": [
+      "FC Bayern Munich",
+      "Borussia Dortmund",
+      "RB Leipzig",
+      "Bayer Leverkusen",
+      "Borussia Mönchengladbach",
+      "Eintracht Frankfurt",
+      "VfL Wolfsburg",
+      "Hertha BSC",
+      "SC Freiburg",
+      "TSG Hoffenheim",
+      "1. FC Köln",
+      "1. FSV Mainz 05",
+      "VfB Stuttgart",
+      "Werder Bremen",
+      "FC Augsburg",
+      "Union Berlin",
+      "Schalke 04",
+      "Hamburger SV"
+    ]
+  },
+  {
+    "league": "Serie A",
+    "clubs": [
+      "Juventus",
+      "Inter Milan",
+      "AC Milan",
+      "AS Roma",
+      "Napoli",
+      "Lazio",
+      "Fiorentina",
+      "Atalanta",
+      "Torino",
+      "Sampdoria",
+      "Genoa",
+      "Bologna",
+      "Cagliari",
+      "Empoli",
+      "Hellas Verona",
+      "Sassuolo",
+      "Udinese",
+      "Parma",
+      "Salernitana",
+      "Monza"
+    ]
+  },
+  {
+  "league": "Ligue 1",
+  "clubs": [
+    "Lorient",
+    "Nice",
+    "Bastia",
+    "Lille",
+    "Saint-Etienne",
+    "Rennes",
+    "Toulouse",
+    "Evian",
+    "Montpellier",
+    "Paris Saint-Germain",
+    "Lyon",
+    "Bordeaux",
+    "Olympique Marseille",
+    "Reims",
+    "Monaco",
+    "Nantes",
+    "Caen",
+    "Guingamp",
+    "Lens",
+    "Metz",
+    "Brest",
+    "Clermont",
+    "Le Havre"
+  ]
+}
+
+]

@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Admin Editor</title>
+    <link rel="stylesheet" href="adminz.css">
+</head>
+<body>
+    <nav class="navbar">
+        <div class="navbar-container">
+            <h1 class="logo">FC MOBILE ADMIN EDITOR</h1>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="#" class="nav-link">Home</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Edit Data</a></li>
+                <li class="nav-item"><a href="#" class="nav-link">Settings</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </div>
+    </nav>
+    <header class="admin-header">
+        <h1>Administrator Dashboard</h1>
+    </header>
+    <div class="admin-container">
+       <main class="admin-main">
+         <form id="player-form">
+         <label for="src">Image Upload:</label><br>
+         <input type="file" id="src" name="src" required onchange="loadFile(event)"><br>
+         <img id="preview" width="200" /><br> <!-- Tempat untuk menampilkan preview gambar -->
+         <label for="names">NAME:</label><br>
+         <input type="text" id="names" name="names" placeholder="nama pemain lengkap" required><br>
+         <label for="alt">ALT:</label><br>
+         <input type="text" id="alt" name="alt" placeholder="masukkan nama gambar" required><br>
+         <label for="ovr">OVR:</label><br>
+ <input type="number" id="ovr" name="ovr" min="0" max="999" placeholder="Enter a number OVR" oninput="this.value = Math.abs(this.value) > 999 ? 999 : Math.abs(this.value)" required><br>
+
+ <label for="level">Level:</label><br>
+<input type="number" id="level" name="level" min="0" max="30" placeholder="Enter a number between 0 and 30" oninput="this.value = Math.abs(this.value) > 30 ? 30 : Math.abs(this.value)" required><br>
+
+<label for="coinValue">Coin Value:</label><br>
+<input type="number" id="coinValue" name="coinValue" min="0" max="999999999999" placeholder="Enter a value coin" oninput="this.value = Math.abs(this.value) > 999999999999 ? 999999999999 : Math.abs(this.value)" required><br>
+<p>
+ <label for="position">Position:</label><br>
+<select id="position" name="position" required> <!-- Menu gulir ke bawah untuk posisi -->
+    <option value="">--Select Position--</option>
+</select><br>
+<input type="hidden" id="region" name="region">
+         <label for="national">National:</label><br>
+<select id="national" name="national" required>
+    <option value="">--Select National--</option>
+    <!-- Opsi region lainnya akan diisi oleh JavaScript -->
+</select><br>
+<input type="hidden" id="league" name="league">
+<label for="club">Club:</label><br>
+<select id="club" name="club" required>
+    <option value="">--Select Club--</option>
+    <!-- Opsi klub lainnya akan diisi oleh JavaScript -->
+</select><br>
+        <input type="hidden" id="season" name="season">
+         <label for="programs">Programs:</label><br>
+         <select id="programs" name="programs" required> <!-- Menu gulir ke bawah untuk region -->
+             <option value="">--Select Programs--</option>
+                <!-- Opsi programs lainnya akan diisi oleh JavaScript -->
+         </select><br>
+         <label for="directory">Directory:</label><br>
+ <select id="directory" name="directory" required> <!-- Menu gulir ke bawah untuk direktori -->
+   <option value="">--Select Programs--</option>
+     <!-- Opsi direktori lainnya akan diisi oleh JavaScript -->
+ </select><br>
+
+
+
+<label for="table">Table:</label><br>
+<select id="table" name="table" required> <!-- Menu gulir ke bawah untuk tabel -->
+    <option value="">--Select Table--</option>
+    <option value="season_24">Season 24</option>
+    <option value="season_6_7">Season 6-7</option>
+    <!-- Anda bisa menambahkan opsi tabel lainnya di sini -->
+</select><br>
+
+         <input type="submit" value="Submit">
+     </form>
+  </main>
+</div> <!-- Tutup div admin-container di sini -->
+<footer class="footer">
+    <div class="footer-container">
+        <p>© 2024 FC Mobile Admin Editor. All rights reserved.</p>
+        <p>1234 Street Name, City, State 56789</p>
+        <p>Email: info@fcmobile.com | Phone: (123) 456-7890</p>
+    </div>
+</footer>
+<script src="../football-formation-lineup/scripts/adminz.js"></script>
+<script src="adminz.js"></script>
+<script src="resetz.js"></script>
+</body>
+</html>

@@ -1,0 +1,37 @@
+[
+  {
+    "position": "Goalkeeper",
+    "list": [
+      "GK"
+    ]
+  },
+  {
+    "position": "Defender",
+    "list": [
+      "CB",
+      "LB",
+      "RB",
+      "LWB",
+      "RWB"
+    ]
+  },
+  {
+    "position": "Midfielder",
+    "list": [
+      "CM",
+      "CAM",
+      "CDM",
+      "LM",
+      "RM"
+    ]
+  },
+  {
+    "position": "Foward",
+    "list": [
+      "ST",
+      "CF",
+      "LW",
+      "RW"
+    ]
+  }
+]

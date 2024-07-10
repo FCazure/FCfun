@@ -1,0 +1,281 @@
+/* Formation 4-3-3 Attack */
+#container.formation-433attack .player.gk{
+  grid-column: 4;
+  grid-row: 5;
+  position: relative;
+  bottom: 133%;
+}
+
+#container.formation-433attack .player.lb {
+  grid-column: 1 / span 2; grid-row: 4; position: relative; bottom: 65.5%; right: 8%;
+}
+
+#container.formation-433attack .player.cb1 {
+  grid-column: 3; grid-row: 4; position: relative; bottom: 57.5%; left: 10%;
+}
+
+#container.formation-433attack .player.cb2 {
+  grid-column: 5; grid-row: 4; position: relative; bottom: 57.5%; right: 10%;
+}
+
+#container.formation-433attack .player.rb {
+  grid-column: 6 / span 2; grid-row: 4; position: relative; bottom: 65.5%; left: 8%;
+}
+
+#container.formation-433attack .player.cm1 {
+  grid-column: 2 /span 2; grid-row: 3; position: relative; bottom: 27%; left: 4%;
+}
+
+#container.formation-433attack .player.cam {
+  position: absolute; top: 45%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#container.formation-433attack .player.cm2 {
+  grid-column: 5 /span 2; grid-row: 3; position: relative; bottom: 27%; right: 4%;
+}
+
+#container.formation-433attack .player.lw {
+  grid-column: 1 / span 3; grid-row: 2; position: relative; top: 1%;  left: 20%;
+}
+
+#container.formation-433attack .player.st {
+  position: absolute; top: 28.2%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#container.formation-433attack .player.rw {
+  grid-column: 5 / span 3; grid-row: 2; position: relative; top: 1%; right: 20%;
+}
+
+/* Formation 4-3-3 Holding */
+#container.formation-433holding .player.gk{
+  grid-column: 4;
+  grid-row: 5;
+  position: relative;
+  bottom: 133%;
+}
+
+#container.formation-433holding .player.lb {
+  grid-column: 1 / span 2; grid-row: 4; position: relative; bottom: 65.5%; right: 8%;
+}
+
+#container.formation-433holding .player.cb1 {
+  grid-column: 3; grid-row: 4; position: relative; bottom: 57.5%; left: 10%;
+}
+
+#container.formation-433holding .player.cb2 {
+  grid-column: 5; grid-row: 4; position: relative; bottom: 57.5%; right: 10%;
+}
+
+#container.formation-433holding .player.rb {
+  grid-column: 6 / span 2; grid-row: 4; position: relative; bottom: 65.5%; left: 8%;
+}
+
+#container.formation-433holding .player.cm1 {
+  grid-column: 2 /span 2; grid-row: 3; position: relative; bottom: 27%; left: 4%;
+}
+
+#container.formation-433holding .player.cam {
+  position: absolute; top: 48%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#container.formation-433holding .player.cm2 {
+  grid-column: 5 /span 2; grid-row: 3; position: relative; bottom: 27%; right: 4%;
+}
+
+#container.formation-433holding .player.lw {
+  grid-column: 1 / span 3; grid-row: 2; position: relative; top: 1%;  left: 20%;
+}
+
+#container.formation-433holding .player.st {
+  position: absolute; top: 28.2%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#container.formation-433holding .player.rw {
+  grid-column: 5 / span 3; grid-row: 2; position: relative; top: 1%; right: 20%;
+}
+
+
+
+/* Formation 4-3-3 Flat */
+#container.formation-433flat .player.gk{
+  grid-column: 4;
+  grid-row: 5;
+  position: relative;
+  bottom: 133%;
+}
+
+#container.formation-433flat .player.lb {
+  grid-column: 1 / span 2; grid-row: 4; position: relative; bottom: 65.5%; right: 8%;
+}
+
+#container.formation-433flat .player.cb1 {
+  grid-column: 3; grid-row: 4; position: relative; bottom: 57.5%; left: 10%;
+}
+
+#container.formation-433flat .player.cb2 {
+  grid-column: 5; grid-row: 4; position: relative; bottom: 57.5%; right: 10%;
+}
+
+#container.formation-433flat .player.rb {
+  grid-column: 6 / span 2; grid-row: 4; position: relative; bottom: 65.5%; left: 8%;
+}
+
+#container.formation-433flat .player.cm1 {
+  grid-column: 2 /span 2; grid-row: 3; position: relative; bottom: 27%; left: 4%;
+}
+
+#container.formation-433flat .player.cam {
+  position: absolute; top: 45.5%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#container.formation-433flat .player.cm2 {
+  grid-column: 5 /span 2; grid-row: 3; position: relative; bottom: 27%; right: 4%;
+}
+
+#container.formation-433flat .player.lw {
+  grid-column: 1 / span 3; grid-row: 2; position: relative; top: 1%;  left: 20%;
+}
+
+#container.formation-433flat .player.st {
+  position: absolute; top: 28.2%; left: 50%; transform: translate(-50%, -50%);
+}
+
+#container.formation-433flat .player.rw {
+  grid-column: 5 / span 3; grid-row: 2; position: relative; top: 1%; right: 20%;
+}
+
+
+/* Formation 4-2-4 */
+#container.formation-424 .player.gk{
+  grid-column: 4;
+  grid-row: 5;
+  position: relative;
+  bottom: 133%;
+}
+
+#container.formation-424 .player.lb {
+  grid-column: 1 / span 2; grid-row: 4; position: relative; bottom: 65.5%; right: 8%;
+}
+
+#container.formation-424 .player.cb1 {
+  grid-column: 3; grid-row: 4; position: relative; bottom: 57.5%; left: 10%;
+}
+
+#container.formation-424 .player.cb2 {
+  grid-column: 5; grid-row: 4; position: relative; bottom: 57.5%; right: 10%;
+}
+
+#container.formation-424 .player.rb {
+  grid-column: 6 / span 2; grid-row: 4; position: relative; bottom: 65.5%; left: 8%;
+}
+
+#container.formation-424 .player.cm1 {
+  grid-column: 2 /span 2; grid-row: 3; position: relative; bottom: 27%; left: 41.5%;
+}
+
+#container.formation-424 .player.cm2 {
+  grid-column: 5 /span 2; grid-row: 3; position: relative; bottom: 27%; right: 41.5%;
+}
+
+#container.formation-424 .player.lw {
+  grid-column: 1 / span 3; grid-row: 2; position: relative; top: 14.5%;  left: 9%;
+}
+
+#container.formation-424 .player.cam {
+  position: absolute; top: 28.6%; left: 40%; transform: translate(-50%, -50%);
+}
+
+#container.formation-424 .player.st {
+  position: absolute; top: 28.6%; left: 60%; transform: translate(-50%, -50%);
+}
+
+#container.formation-424 .player.rw {
+  grid-column: 5 / span 3; grid-row: 2; position: relative; top: 14.5%; right: 9%;
+}
+
+
+/* CSS Media Queries for Mobile */
+@media only screen and (max-width: 480px) {
+  /* Styles for Mobile */
+  #container .player img {
+    width: 15vw;
+    height: 15vw;
+  }
+  #container .player p {
+    font-size: 8px;
+    padding: 5px;
+    width: 15px;
+  }
+  #container.formation-433attack .player.gk,
+  #container.formation-433holding .player.gk,
+  #container.formation-433flat .player.gk,
+  #container.formation-424 .player.gk {
+    bottom: 100%;
+  }
+  #container.formation-433attack .player.lb,
+  #container.formation-433holding .player.lb,
+  #container.formation-433flat .player.lb,
+  #container.formation-424 .player.lb {
+    bottom: 50%;
+    right: 4%;
+  }
+  #container.formation-433attack .player.cb1,
+  #container.formation-433holding .player.cb1,
+  #container.formation-433flat .player.cb1,
+  #container.formation-424 .player.cb1 {
+    bottom: 40%;
+    left: 5%;
+  }
+  #container.formation-433attack .player.cb2,
+  #container.formation-433holding .player.cb2,
+  #container.formation-433flat .player.cb2,
+  #container.formation-424 .player.cb2 {
+    bottom: 40%;
+    right: 5%;
+  }
+  #container.formation-433attack .player.rb,
+  #container.formation-433holding .player.rb,
+  #container.formation-433flat .player.rb,
+  #container.formation-424 .player.rb {
+    bottom: 50%;
+    left: 4%;
+  }
+  #container.formation-433attack .player.cm1,
+  #container.formation-433holding .player.cm1,
+  #container.formation-433flat .player.cm1,
+  #container.formation-424 .player.cm1 {
+    bottom: 20%;
+    left: 2%;
+  }
+  #container.formation-433attack .player.cam,
+  #container.formation-433holding .player.cam,
+  #container.formation-433flat .player.cam {
+    top: 35%;
+  }
+  #container.formation-433attack .player.cm2,
+  #container.formation-433holding .player.cm2,
+  #container.formation-433flat .player.cm2,
+  #container.formation-424 .player.cm2 {
+    bottom: 20%;
+    right: 2%;
+  }
+  #container.formation-433attack .player.lw,
+  #container.formation-433holding .player.lw,
+  #container.formation-433flat .player.lw,
+  #container.formation-424 .player.lw {
+    top: 10%;
+    left: 10%;
+  }
+  #container.formation-433attack .player.st,
+  #container.formation-433holding .player.st,
+  #container.formation-433flat .player.st {
+    top: 20%;
+  }
+  #container.formation-433attack .player.rw,
+  #container.formation-433holding .player.rw,
+  #container.formation-433flat .player.rw,
+  #container.formation-424 .player.rw {
+    top: 10%;
+    right: 10%;
+  }
+}

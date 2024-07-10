@@ -1,0 +1,42 @@
+/* CSS Media Queries for Mobile */
+@media only screen and (max-width: 768px) {
+  /* Styles for Tablet */
+  body {
+    font-size: 14px;
+    overflow-x: auto;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    height: auto; /* Change to auto */
+    background-color: #fff; /* Change body background to white */
+  }
+  .lapangan {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .container1 {
+    width: 100%;
+    height: auto;
+  }
+  /* ... rest of your CSS ... */
+}
+
+@media only screen and (max-width: 480px) {
+  /* Styles for Mobile */
+  body {
+    font-size: 12px;
+    overflow-x: auto;
+    overflow-y: scroll; /* Enable vertical scrolling */
+    height: auto; /* Change to auto */
+    background-color: #fff; /* Change body background to white */
+  }
+  .lapangan {
+    width: 100%;
+    height: auto;
+    background-size: cover;
+  }
+  .container1 {
+    width: 100%;
+    height: auto;
+  }
+  /* ... rest of your CSS ... */
+}

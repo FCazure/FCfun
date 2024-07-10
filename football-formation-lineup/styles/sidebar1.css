@@ -1,0 +1,71 @@
+/* Toggle button styles */
+#toggleSubsButton {
+  position: absolute; /* Fixed position */
+  bottom: 8%; /* Distance from bottom */
+  left: 1%; /* Distance from left */
+  z-index: 10; /* Above other elements */
+  width: 50px; /* Width of the button */
+  height: 50px; /* Height of the button */
+  background-image: url('../galeri/balls/campaignicon_HEROES24_C7_BALL.png'); /* Path to your soccer ball image */
+  background-size: cover; /* Cover the entire area of the button */
+  background-color: transparent; /* Ensure background is transparent */
+  border: none; /* No border */
+  cursor: pointer;
+  opacity: 0.5; /* Semi-transparent */
+}
+#toggleSubsButton:hover {
+  opacity: 1; /* Fully visible on hover */
+}
+.hamburger-line {
+  display: none;
+}
+#sidebar {
+  position: fixed; /* Fixed position */
+  top: 50%; /* Start at the middle of the screen */
+  left: -250px; /* Start off screen */
+  width: 250px; /* Width of sidebar, adjust as needed to not be too large */
+  height: 80%; /* Height of sidebar */
+  background-color: #003366; /* Dark blue background */
+  overflow-y: auto; /* Scrollable content */
+  transition: left 0.3s; /* Smooth transition for sliding in/out */
+  transform: translateY(-50%); /* Shift upwards by half its height */
+}
+#sidebar:not(.hidden) {
+  left: 0;
+}
+#searchInput {
+  width: calc(50% - 20px); /* Full width minus padding */
+  padding: 10px;
+  margin: 10px;
+}
+#filter {
+  width: calc(50% - 20px); /* Full width minus padding */
+  padding: 10px;
+  margin: 10px;
+}
+#imageContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+.sub-player {
+  width: calc(50% - 20px); /* Adjust size for two images per row with padding */
+  padding: 10px;
+}
+.sub-player img {
+  width: 100%; /* Adjust size as needed */
+}
+
+/* Your existing CSS code */
+
+/* Add styles for editable elements */
+[contenteditable="true"] {
+  border: none;
+  padding: none;
+  cursor: text;
+}
+
+[contenteditable="true"]:hover,
+[contenteditable="true"]:focus {
+  border-color: none;
+  outline: none;
+}

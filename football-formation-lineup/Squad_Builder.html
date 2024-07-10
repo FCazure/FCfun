@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Football Line Up</title>
+  <link rel="stylesheet" type="text/css" href="styles/formation-alpha.css">
+  <link rel="stylesheet" type="text/css" href="styles/playercard-alpha.css">
+  <link rel="stylesheet" type="text/css" href="styles/mobile.css">
+  <link rel="stylesheet" type="text/css" href="styles/sidebar1.css">
+  <link rel="stylesheet" type="text/css" href="styles/formation-choice.css">
+  <link rel="stylesheet" type="text/css" href="styles/formation-position.css">
+ </head>
+<body>
+  <div class="lapangan">
+    <!-- Tambahkan ini di dalam HTML Anda -->
+    <input type="file" id="logo-input" accept="image/*" style="display: none;">
+    <div id="teaminfo">
+      <img id="team-logo" src="galeri/ea-logo/eafc-logo.png" alt="Logo Klub" onclick="document.getElementById('logo-input').click();">
+      <div id="team-text">
+   <p id="team-name" class="placeholder" contenteditable="true" onfocus="clearText(this)" onblur="fillText(this)">NONE</p>
+        <!-- Ganti paragraf formasi dengan dropdown menu -->
+        <div class="dropdown">
+<p id="formation">4-3-3 Attack</p>
+<div class="dropdown-content">
+  <a href="#" onclick="changeFormation('4-3-3 Attack')">4-3-3 Attack</a>
+  <a href="#" onclick="changeFormation('4-3-3 Holding')">4-3-3 Holding</a>
+  <a href="#" onclick="changeFormation('4-3-3 Flat')">4-3-3 Flat</a>
+  <a href="#" onclick="changeFormation('4-2-4')">4-2-4</a>
+  <!-- Tambahkan lebih banyak formasi jika diperlukan -->
+</div>
+</div>
+      </div>
+    </div>
+    <div id="team-info2">
+      <div id="team-value">
+    <span id="team-value-number" class="timer" data-from="0" data-to="0" data-speed="500" data-refresh-interval="50">0</span>
+    <img id="coin-icon" src="galeri/fccoin/currencysmall_COIN.png" alt="Coin Icon">
+  </div>
+      <div id="team-text2">
+        <div class="ovrku">
+        <p id="team-name2">OVR</p>
+        <p id="team-rating">0</p>
+        </div>
+      </div>
+    </div>
+  <div id="container" class="container1 formation-433attack">
+    <!-- 433 Attack Formation -->
+    <!-- Goalkeeper -->
+    <div class="player gk"><img class="non-draggable"  src="galeri/FC_placeholder/0_GK.svg"  alt="GK"><p class="non-draggable">GK</p></div>
+    <!-- Defense Line -->
+    <div class="player lb" ><img class="non-draggable" src="galeri/FC_placeholder/3_LB.svg" alt="LB"><p class="non-draggable">LB</p></div>
+    <div class="player cb1" ><img class="non-draggable" src="galeri/FC_placeholder/3_CB.svg" alt="CB"><p class="non-draggable">CB</p></div>
+    <div class="player cb2" ><img class="non-draggable" src="galeri/FC_placeholder/3_CB.svg" alt="CB"><p class="non-draggable">CB</p></div>
+    <div class="player rb" ><img class="non-draggable" src="galeri/FC_placeholder/3_RB.svg" alt="RB"><p class="non-draggable">RB</p></div>
+    <!-- Midfielders -->
+    <div class="player cm1" ><img class="non-draggable" src="galeri/FC_placeholder/2_CM.svg" alt="CM"><p class="non-draggable">CM</p></div>
+    <div class="player cam" ><img class="non-draggable" src="galeri/FC_placeholder/2_CAM.svg" alt="CAM"><p class="non-draggable">CAM</p></div>
+    <div class="player cm2" ><img class="non-draggable" src="galeri/FC_placeholder/2_CM.svg" alt="CM"><p class="non-draggable">CM</p></div>
+    <!-- Forwards -->
+    <div class="player lw" ><img class="non-draggable" src="galeri/FC_placeholder/1_LW.svg" alt="LW"><p class="non-draggable">LW</p></div>
+    <div class="player st" ><img class="non-draggable" src="galeri/FC_placeholder/1_ST.svg" alt="ST"><p class="non-draggable">ST</p></div>
+    <div class="player rw" ><img class="non-draggable" src="galeri/FC_placeholder/1_RW.svg" alt="RW"><p class="non-draggable">RW</p></div>
+  </div>
+<!-- watermark -->
+  <div id="watermark">
+  <img id="watermark-logo" src="galeri/ea-logo/easportlogo1.png" alt="Logo EA SPORTS">
+  <p id="watermark-text">EA SPORTS FC 24</p>
+  </div>
+  <div id="watermark1">
+  <p id="watermarktext1"></p>
+  </div>
+<!--substitute-->
+<button id="toggleSubsButton">
+  <div class="hamburger-line"></div>
+  <div class="hamburger-line"></div>
+  <div class="hamburger-line"></div>
+</button>
+<div id="sidebar" class="hidden">
+  <input type="text" id="searchInput" onkeyup="filterImages()" placeholder="Search for names..">
+  <!-- Tambahkan ini di dalam sidebar Anda -->
+  <div id="imageContainer">
+  </div>
+</div>
+<!-- Akhir Lapangan -->
+</div>
+<script src="scripts/jquery-3.7.1.min.js"></script>
+<script src="scripts/jquery-countTo-master/jquery.countTo.js"></script>
+<script src="scripts/logic.js"></script>
+<script defer src="scripts/formation-choice.js"></script>
+<script src="scripts/Sortable-master/Sortable.min.js"></script>
+<script src="scripts/dragdrop.js"></script>
+<script src="scripts/ovr_icon.js"></script>
+<script src="scripts/coins.js" defer></script>
+<script src="scripts/edits.js"></script>
+</body>
+</html>

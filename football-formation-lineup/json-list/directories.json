@@ -1,0 +1,20 @@
+[
+  {
+    "directory": "Season 24",
+    "list": [
+      "galeri/24/player/TOTS",
+      "galeri/24/player/UTOTS",
+      "galeri/24/player/TOTY",
+      "galeri/24/player/UTOTY",
+      "galeri/24/player/EURO"
+    ]
+  },
+  {
+    "directory": "Season 6/7",
+    "list": [
+      "galeri/6_7/player/TOTS",
+      "galeri/6_7/player/TOTY",
+      "galeri/6_7/player/EURO"
+    ]
+  }
+]

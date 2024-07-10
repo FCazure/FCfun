@@ -1,0 +1,199 @@
+body {
+  font-family: system-ui;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  min-height: 100vh;
+  max-width: 100%;
+  max-height: 100%;
+  overflow: hidden;
+  background-color: rgb(0, 0, 0);
+  background-size: contain;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+  color: white;
+  text-align: center;
+  overflow-y: hidden; /* Tidak ada scroll di desktop */
+}
+.lapangan {
+  position: relative;
+  background: url('../galeri/field/bgloginflow_BACKGROUND_3_6.png') no-repeat center center;
+  background-size: contain;
+  width: 1612px; /* Modifikasi ini */
+  height: 1612px; /* Modifikasi ini */
+  max-width: 1612px; /* Ukuran gambar lapangan */
+  max-height: 720px; /* Ukuran gambar lapangan */
+  margin: 0 auto;
+  z-index: 1;
+  border: 10px;
+  overflow-y: hidden; /* Tidak ada scroll di desktop */
+}
+.container1 {
+  position: absolute;
+  top: 54.2%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: grid;
+  grid-template-columns: repeat(7, 1fr);
+  grid-template-rows: repeat(5, 1fr);
+  gap: 35px;
+  width: 700; /* Ukuran container1 tidak melebihi ukuran gambar lapangan */
+  height: 500; /* Ukuran container1 tidak melebihi ukuran gambar lapangan */
+  z-index: -5;
+}
+#teaminfo {
+  position: absolute;
+  top: 10%;
+  left: 100px;
+  display: flex;
+  align-items: center;
+}
+#team-logo {
+  width: 85px;
+  height: 85px;
+  background-size: cover;
+  padding: 0px;
+}
+#team-logo:hover {
+  cursor: pointer;
+}
+#team-text{
+  margin-left: 20px;
+  font: 500 20px system-ui;
+  text-align: left;
+}
+#team-name {
+  font-weight: normal;
+  font-size: 25px;
+}
+.placeholder {
+  color: #808080; /* Anda bisa mengganti ini dengan warna yang Anda inginkan */
+}
+#team-name, #formation {
+  margin: 0;
+}
+#team-info2 {
+  position: absolute;
+  top: 10%;
+  right: 60px;
+  display: flex;
+  align-items: center;
+  color: rgb(255, 255, 255);
+}
+#team-value {
+  display: flex;
+  align-items: center;
+  font-weight: bold;
+  font-size: 22px;
+  padding: 5px;
+}
+#coin-icon {
+  width: 28px;
+  height: 28px;
+  margin-left: 6px;
+}
+#team-value-number {
+  font: 500 21px system-ui;
+}
+#team-text2 {
+  margin-left: 15px;
+  background: url('../galeri/ovr-logo/ovr_bronze.png') no-repeat center;
+  background-size: cover;
+  background-position: center;
+  opacity: 1;
+  width: 100px;
+  height: 100px;
+  padding: 0px;
+  transition: background-image 1.5s ease-in-out;
+}
+#team-rating {
+  margin: 0;
+  font-size: 35px;
+  font-weight: bold;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 10px #fff, 0 0 10px #49ff18, 0 0 2px #49ff18, 0 0 10px #49ff18;
+  transition: transform 0.5s, opacity 0.5s, color 0.5s;
+  position: relative;
+  color: white;
+}
+#team-name2 {
+  margin: 0;
+  font-size: 15px;
+  font-weight: normal;
+  text-shadow: 0 0 1px #fff, 0 0 1px #fff, 0 0 5px #fff, 0 0 5px #49ff18, 0 0 3px #49ff18, 0 0 10px #49ff18;
+}
+.ovrku {
+  margin-top: 18%;
+}
+#watermark {
+  position: absolute;
+  bottom: 6%;
+  right: 40px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.5);
+  z-index: 2;
+}
+#watermark-logo {
+  width: 40px;
+  height: 40px;
+  opacity: 0.4;
+}
+
+#watermark-text {
+  margin-left: 10px;
+  font-size: 28px;
+  font-weight: bold;
+}
+#watermark1 {
+  position: absolute;
+  bottom: 6%;
+  left: 40px;
+  display: flex;
+  align-items: center;
+  color: rgba(255, 255, 255, 0.4);
+}
+#watermarktext1 {
+  margin-left: 12px;
+  font-size: 28px;
+  font-weight: bold;
+}
+.placeholder {
+    color: #888;
+  }
+/* Adjustments for specific players */
+.gk {
+  align-self: end;
+}
+.lb {
+  justify-content: flex-end;
+}
+.cb1 {
+  align-self: end;
+}
+.cb2 {
+  align-self: end;
+}
+.rb {
+  justify-content: flex-start;
+}
+.cm1 {
+  justify-content: flex-end;
+}
+.cdm {
+  align-self: start;
+}
+.cm2 {
+  justify-content: flex-start;
+}
+.lw {
+  justify-content: flex-end;
+}
+.container > .player.st {
+  align-self: start;
+}
+.rw {
+  justify-content: flex-start;
+}

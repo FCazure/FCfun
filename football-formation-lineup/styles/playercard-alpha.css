@@ -1,0 +1,45 @@
+.player {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  color: black;
+}
+
+.player img {
+  width: 9.5vw;
+  height: 9.5vw;
+  position: relative;
+  z-index: 5;
+  pointer-events: auto; /* Pastikan elemen dapat menerima event pointer */
+}
+
+.player p {
+  position: sticky;
+  margin-top: -3px;
+  font-size: 10px;
+  color: grey;
+  text-shadow: 3px 3px 6px rgb(66, 255, 2);
+  padding: 7.7px;
+  background-color: rgb(30, 10, 10);
+  border-radius: 36%;
+  display: inline-block;
+  width: 20px;
+  height: 1px;
+  line-height: 0px;
+  text-align: center;
+  z-index: 1;
+}
+
+/* CSS Media Queries for Mobile */
+@media only screen and (max-width: 480px) {
+  .player img {
+    width: 11vw;
+    height: 11vw;
+  }
+  .player p {
+    font-size: 4px;
+    padding: 3px;
+    width: 8px;
+  }
+}
